@@ -50,8 +50,8 @@ export default function ProductPage() {
 
   return (
     <div className="max-w-4xl mx-auto p-6">
-      <h1 className="text-2xl font-bold">{product.title}</h1>
-      <p className="text-lg text-gray-700">{product.price}</p>
+      <h1 className="text-3xl font-bold">{product.title}</h1>
+      <p className="text-lg text-zinc-400 ">{product.price}</p>
       <ProductImages
         images={product.images}
         mainImage={mainImage}

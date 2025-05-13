@@ -20,7 +20,8 @@ const ProductImages = ({
         alt="Produto"
         className="w-full max-w-xs sm:max-w-md md:max-w-lg object-contain"
       />
-      <div className="flex gap-2 mt-2 flex-wrap justify-center">
+
+      <div className="flex gap-4 mt-2 flex-wrap justify-center">
         {images.map((img, index) => (
           <Image
             key={index}
@@ -28,7 +29,7 @@ const ProductImages = ({
             width={200}
             height={200}
             alt="Miniatura"
-            className="w-16 cursor-pointer hover:opacity-75 object-contain"
+            className="w-24 cursor-pointer hover:opacity-75 object-contain"
             onClick={() => setMainImage(img)}
           />
         ))}

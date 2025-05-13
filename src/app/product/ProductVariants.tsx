@@ -23,7 +23,7 @@ const ProductVariants = ({
       >
         <option value="">Selecione</option>
         {variants.sizes.map((size) => (
-          <option key={size} value={size}>
+          <option key={size} value={size} className="bg-zinc-800">
             {size}
           </option>
         ))}
@@ -37,7 +37,7 @@ const ProductVariants = ({
       >
         <option value="">Selecione</option>
         {variants.colors.map((color) => (
-          <option key={color} value={color}>
+          <option key={color} value={color} className="bg-zinc-800">
             {color}
           </option>
         ))}
