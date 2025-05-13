@@ -7,7 +7,7 @@ export default function HomePage() {
       <h1 className="text-3xl sm:text-4xl font-bold text-white">
         Bem-vindo ao Nosso E-commerce!
       </h1>
-      <p className="text-md sm:text-lg text-gray-300 mt-4 max-w-md">
+      <p className="text-md sm:text-lg text-zinc-300 mt-4 max-w-md">
         Aqui você encontra os melhores produtos com qualidade garantida. Explore
         agora!
       </p>
@@ -21,7 +21,7 @@ export default function HomePage() {
       />
 
       <Link href="/product">
-        <button className="mt-6 px-4 py-2 sm:px-6 sm:py-3 text-white bg-blue-600 rounded-md shadow-md hover:bg-blue-500 transition-all">
+        <button className="mt-6 px-4 py-2 sm:px-6 sm:py-3 text-white bg-zinc-500 rounded-md shadow-md hover:bg-zinc-400 transition-all">
           Ver Produtos
         </button>
       </Link>

@@ -5,10 +5,10 @@ export default function NotFound() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-center p-6">
       <h1 className="text-5xl sm:text-6xl font-bold text-red-500">404</h1>
-      <h2 className="text-xl sm:text-2xl font-semibold text-gray-300 mt-4">
+      <h2 className="text-xl sm:text-2xl font-semibold text-zinc-300 mt-4">
         Página não encontrada
       </h2>
-      <p className="text-gray-400 mt-2 max-w-md">
+      <p className="text-zinc-400 mt-2 max-w-md">
         O link que você tentou acessar não existe ou foi removido. Volte para a
         página inicial.
       </p>
@@ -22,7 +22,7 @@ export default function NotFound() {
       />
 
       <Link href="/">
-        <button className="mt-6 px-4 py-2 sm:px-6 sm:py-3 text-white bg-blue-600 rounded-md shadow-md hover:bg-blue-500 transition-all">
+        <button className="mt-6 px-4 py-2 sm:px-6 sm:py-3 text-white bg-zinc-500 rounded-md shadow-md hover:bg-zinc-400 transition-all">
           Voltar para a página inicial
         </button>
       </Link>
