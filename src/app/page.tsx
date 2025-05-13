@@ -13,7 +13,7 @@ export default function HomePage() {
       </p>
 
       <Image
-        src="/images/welcome-dark.png"
+        src="/images/welcome.png"
         width={400}
         height={400}
         alt="Boas-vindas"
