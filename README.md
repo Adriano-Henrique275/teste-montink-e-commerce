@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛒 E-commerce Product Page
 
-## Getting Started
+## 📌 Sobre o Projeto
 
-First, run the development server:
+Este projeto é uma **página de produto para um e-commerce**, construída com **Next.js**, **TypeScript** e **Tailwind CSS**. Ele apresenta uma interface moderna e responsiva, permitindo aos usuários visualizar produtos e consultar o frete via **API ViaCEP**.
+
+## 🚀 Tecnologias Utilizadas
+
+- **Next.js** → Framework moderno para React com roteamento automático.
+- **TypeScript** → Tipagem estática para maior segurança no código.
+- **Tailwind CSS** → Estilização eficiente e responsiva.
+- **API ViaCEP** → Consulta de frete via CEP.
+
+## ✨ Funcionalidades
+
+✅ Página de boas-vindas com botão para acessar os produtos.  
+✅ Página de detalhes do produto com opções de variantes.  
+✅ Consulta de frete via **CEP** com integração à **API ViaCEP**.  
+✅ Página **404 personalizada**, adaptada ao tema escuro do projeto.
+
+## 📂 Estrutura do Projeto
+
+---
+
+## 🚀 Como Executar o Projeto
 
 ```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/ecommerce-product-page.git
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+### 🚀 **Destaques do README**
+✅ **Descrição clara do projeto** – Para que qualquer desenvolvedor entenda sua proposta.
+✅ **Lista de tecnologias usadas** – Mostra seu domínio técnico.
+✅ **Estrutura do projeto** – Facilita navegação no código.
+✅ **Passos para rodar o projeto** – Ajuda quem quiser testar.
+✅ **Possíveis melhorias futuras** – Indica visão de evolução.
+
+Agora seu README está **bem estruturado**, **profissional** e pronto para impressionar! 🔥
+Se quiser ajustes ou adicionar algo, me avise! 😃🚀
+Gostou desse modelo
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
